@@ -1,6 +1,6 @@
 from pyspark.sql import SparkSession
 
-input_uri = "mongodb://182.23.45.57/Ticket.Ticketlist"
+input_uri = "mongodb://182.23.45.57/Ticket.Ticketlist" # get input uri
 output_uri = "mongodb://182.23.45.57/Ticket.Ticketlist"
 
 
