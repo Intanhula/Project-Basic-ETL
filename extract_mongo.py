@@ -1,12 +1,7 @@
 from pyspark.sql import SparkSession #import library
 
-<<<<<<< HEAD
 input_uri = "mongodb://182.23.45.57/Ticket.Ticketlist" # get input uri database and collection
 output_uri = "mongodb://182.23.45.57/Ticket.Ticketlist" # get output uri database and collection
-=======
-input_uri = "mongodb://182.23.45.57/Ticket.Ticketlist" # get input uri
-output_uri = "mongodb://182.23.45.57/Ticket.Ticketlist"
->>>>>>> f9a0391d53d27db9b178becc3627d0e43675e708
 
 
 myspark = SparkSession \
